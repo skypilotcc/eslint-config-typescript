@@ -60,6 +60,7 @@ module.exports = {
     ],
     'import/prefer-default-export': 'off',
     'lines-between-class-members': ['warn', 'always', { exceptAfterSingleLine: true }],
+    'no-multiple-empty-lines': ['warn', { max: 2, maxBOF: 0, maxEOF: 0 }],
     'no-dupe-class-members': 'off',
     'no-trailing-spaces': 'warn',
     'no-underscore-dangle': ['warn', { allowAfterThis: true }],
