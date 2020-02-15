@@ -1,6 +1,6 @@
 import * as module from '../index';
 
-describe('index.ts', () => {
+describe('index.js', () => {
   it('should export a module', () => {
     expect(typeof module).toBe('object');
   });
