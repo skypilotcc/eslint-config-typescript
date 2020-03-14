@@ -10,6 +10,10 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
   ],
+  ignorePatterns: [
+    /* Disable erroneous linting of JSON files in Codacy. */
+    '*/.json',
+  ],
   overrides: [
     {
       files: ['*.js'],
