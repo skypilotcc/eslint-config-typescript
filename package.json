@@ -22,7 +22,7 @@
     "typescript"
   ],
   "devDependencies": {
-    "@skypilot/toolchain": "^3.5.4"
+    "@skypilot/toolchain": "^3.5.8"
   },
   "files": [
     "/lib"
