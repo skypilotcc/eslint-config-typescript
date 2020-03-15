@@ -42,6 +42,11 @@
     "test": "jest",
     "typecheck": "tsc"
   },
+  "resolutions": {
+    "**/acorn-globals/acorn": "^6.4.1",
+    "**/jsdom/acorn": "^7.1.1",
+    "eslint/**/acorn": "^7.1.1"
+  },
   "devDependencies": {
     "@skypilot/toolchain": "^3.5.8"
   },
