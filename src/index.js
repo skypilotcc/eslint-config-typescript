@@ -12,7 +12,7 @@ module.exports = {
   ],
   ignorePatterns: [
     /* Disable erroneous linting of JSON files in Codacy. */
-    '*/.json',
+    '*.json',
   ],
   overrides: [
     {
