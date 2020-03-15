@@ -1,29 +1,29 @@
 {
   "name": "@skypilot/eslint-config-typescript",
-  "version": "1.0.5",
-  "private": false,
   "description": "SkyPilot's .eslintrc as an extensible shared config",
+  "homepage": "https://github.com/skypilotcc/eslint-config-typescript#readme",
+  "version": "1.0.6",
+  "main": "lib/index.js",
+  "author": {
+    "email": "william@thorsen.dev",
+    "name": "William Thorsen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/skypilotcc/eslint-config-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skypilotcc/eslint-config-typescript/issues"
+  },
   "keywords": [
     "config",
     "eslint",
     "shared",
     "typescript"
   ],
-  "homepage": "https://github.com/skypilotcc/eslint-config-typescript#readme",
-  "bugs": {
-    "url": "https://github.com/skypilotcc/eslint-config-typescript/issues"
+  "devDependencies": {
+    "@skypilot/toolchain": "^3.5.8"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/skypilotcc/eslint-config-typescript.git"
-  },
-  "license": "ISC",
-  "author": {
-    "name": "William Thorsen",
-    "email": "william@thorsen.dev"
-  },
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
   "files": [
     "/lib"
   ],
@@ -42,15 +42,15 @@
     "test": "jest",
     "typecheck": "tsc"
   },
+  "private": false,
+  "license": "ISC",
+  "publishConfig": {
+    "access": "restricted"
+  },
   "resolutions": {
     "**/acorn-globals/acorn": "^6.4.1",
     "**/jsdom/acorn": "^7.1.1",
     "eslint/**/acorn": "^7.1.1"
   },
-  "devDependencies": {
-    "@skypilot/toolchain": "^3.5.8"
-  },
-  "publishConfig": {
-    "access": "restricted"
-  }
+  "types": "lib/index.d.ts"
 }

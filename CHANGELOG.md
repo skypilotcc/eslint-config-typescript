@@ -1,3 +1,11 @@
+## [1.0.6](https://github.com/skypilotcc/eslint-config-typescript/compare/v1.0.6-next.0...v1.0.6) (2020-03-15)
+
+
+
+## [1.0.6-next.0](https://github.com/skypilotcc/eslint-config-typescript/compare/v1.0.5...v1.0.6-next.0) (2020-03-15)
+
+
+
 ## [1.0.5](https://github.com/skypilotcc/eslint-config-typescript/compare/v1.0.5-next.0...v1.0.5) (2020-03-15)
 
 
