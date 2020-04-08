@@ -26,6 +26,7 @@ module.exports = {
     {
       files: ['**/*.test.[jt]s'],
       rules: {
+        'arrow-body-style': 'off',
         'import/no-extraneous-dependencies': ['warn', { devDependencies: true }],
         'no-console': 'off',
       },
