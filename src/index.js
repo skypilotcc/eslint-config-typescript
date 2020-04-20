@@ -70,6 +70,7 @@ module.exports = {
     'no-trailing-spaces': 'warn',
     'no-underscore-dangle': ['warn', { allowAfterThis: true }],
     'object-curly-newline': ['warn', { consistent: true }],
+    'object-property-newline': ['warn', { allowAllPropertiesOnSameLine: true }],
     'padded-blocks': 'off',
     'quotes': ['warn', 'single', { avoidEscape: true }],
   },
