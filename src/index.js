@@ -71,6 +71,7 @@ module.exports = {
     'no-underscore-dangle': ['warn', { allowAfterThis: true }],
     'object-curly-newline': ['warn', { consistent: true }],
     'object-property-newline': ['warn', { allowAllPropertiesOnSameLine: true }],
+    'object-shorthand': ['warn', 'always'],
     'padded-blocks': 'off',
     'quotes': ['warn', 'single', { avoidEscape: true }],
   },
