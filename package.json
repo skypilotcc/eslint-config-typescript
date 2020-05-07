@@ -2,7 +2,7 @@
   "name": "@skypilot/eslint-config-typescript",
   "description": "SkyPilot's .eslintrc as an extensible shared config",
   "homepage": "https://github.com/skypilot-dev/eslint-config-typescript#readme",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "lib/index.js",
   "author": {
     "email": "wthorsen@skypilot.dev",
