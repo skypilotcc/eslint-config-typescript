@@ -3,7 +3,6 @@ module.exports = {
   // Recognize global vars for these environments
   env: {
     es6: true,
-    jest: true,
     node: true,
   },
   extends: [
@@ -25,6 +24,9 @@ module.exports = {
     },
     {
       files: ['**/*.test.[jt]s'],
+      env: {
+        jest: true,
+      },
       rules: {
         'arrow-body-style': 'off',
         'import/no-extraneous-dependencies': ['warn', { devDependencies: true }],
@@ -44,14 +46,18 @@ module.exports = {
 
     // Best practices
     '@typescript-eslint/explicit-function-return-type': ['warn', { allowExpressions: true }],
+    '@typescript-eslint/no-empty-function': 'warn',
     '@typescript-eslint/no-unused-vars': ['error', { args: 'all', argsIgnorePattern: '^_', ignoreRestSiblings: true }],
+    '@typescript-eslint/no-useless-constructor': 'warn',
 
     // Stylistic
     '@typescript-eslint/indent': ['warn', 2],
     '@typescript-eslint/member-delimiter-style': 'warn',
     '@typescript-eslint/member-ordering': 'warn',
+
     'arrow-body-style': ['warn', 'as-needed'],
     'arrow-parens': 'off',
+    'camelcase': 'warn',
     'comma-dangle': ['warn', {
       arrays: 'always-multiline',
       exports: 'always-multiline',
@@ -65,7 +71,16 @@ module.exports = {
     ],
     'import/prefer-default-export': 'off',
     'lines-between-class-members': ['warn', 'always', { exceptAfterSingleLine: true }],
+    'max-classes-per-file': 'warn',
+    'max-len': ['warn', {
+      code: 120,
+      ignoreRegExpLiterals: true,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+      ignoreUrls: true,
+    }],
     'no-multiple-empty-lines': ['warn', { max: 2, maxBOF: 0, maxEOF: 0 }],
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-dupe-class-members': 'off',
     'no-trailing-spaces': 'warn',
     'no-underscore-dangle': ['warn', { allowAfterThis: true }],
@@ -73,6 +88,7 @@ module.exports = {
     'object-property-newline': ['warn', { allowAllPropertiesOnSameLine: true }],
     'object-shorthand': ['warn', 'always'],
     'padded-blocks': 'off',
+    'quote-props': ['warn', 'as-needed', { unnecessary: false }],
     'quotes': ['warn', 'single', { avoidEscape: true }],
   },
 };
