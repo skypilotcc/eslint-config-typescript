@@ -1,3 +1,16 @@
+## [1.3.1](https://github.com/skypilot-dev/eslint-config-typescript/compare/v1.3.1-next.0...v1.3.1) (2020-08-15)
+
+
+
+## [1.3.1-next.0](https://github.com/skypilot-dev/eslint-config-typescript/compare/v1.3.0...v1.3.1-next.0) (2020-08-15)
+
+
+### Bug Fixes
+
+* EditorConfig & linter config have differ max line length ([bba37f8](https://github.com/skypilot-dev/eslint-config-typescript/commit/bba37f8601456777a016d00b3ec710ec71b2a95f))
+
+
+
 # [1.3.0](https://github.com/skypilot-dev/eslint-config-typescript/compare/v1.3.0-next.0...v1.3.0) (2020-07-31)
 
 
