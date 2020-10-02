@@ -54,6 +54,7 @@ module.exports = {
     '@typescript-eslint/indent': ['warn', 2],
     '@typescript-eslint/member-delimiter-style': 'warn',
     '@typescript-eslint/member-ordering': 'warn',
+    '@typescript-eslint/type-annotation-spacing': 'warn',
 
     'arrow-body-style': ['warn', 'as-needed'],
     'arrow-parens': 'off',
@@ -66,10 +67,12 @@ module.exports = {
       objects: 'always-multiline',
     }],
     'curly': 'error',
+    'eqeqeq': ['error', 'always'],
     'import/order': ['warn',
       { 'groups': ['builtin', 'external', 'internal', 'parent', 'sibling'] },
     ],
     'import/prefer-default-export': 'off',
+    'keyword-spacing': 'warn',
     'lines-between-class-members': ['warn', 'always', { exceptAfterSingleLine: true }],
     'max-classes-per-file': 'warn',
     'max-len': ['warn', {
