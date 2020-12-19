@@ -1,4 +1,13 @@
-## [1.4.1](https://github.com/skypilot-dev/eslint-config-typescript/compare/v1.4.0...v1.4.1) (2020-10-03)
+# [1.5.0](https://github.com/skypilot-dev/eslint-config-typescript/compare/v1.5.0-next.0...v1.5.0) (2020-12-19)
+
+
+### Bug Fixes
+
+* GitHub Actions workflows fail when `set-env` is used ([4c8dc23](https://github.com/skypilot-dev/eslint-config-typescript/commit/4c8dc23495e7523acc781bed62411dda4f9cfc7b))
+
+
+
+## [1.4.1](https://github.com/skypilot-dev/eslint-config-typescript/compare/v1.4.1-next.0...v1.4.1) (2020-10-03)
 
 
 
