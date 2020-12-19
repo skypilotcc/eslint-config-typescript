@@ -95,5 +95,6 @@ module.exports = {
     'padded-blocks': 'off',
     'quote-props': ['warn', 'as-needed', { unnecessary: false }],
     'quotes': ['warn', 'single', { avoidEscape: true }],
+    'semi': ['error', 'always'],
   },
 };
