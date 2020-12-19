@@ -58,6 +58,7 @@ module.exports = {
 
     'arrow-body-style': ['warn', 'as-needed'],
     'arrow-parens': 'off',
+    'brace-style': ['warn', '1tbs'],
     'camelcase': ['warn', { properties: 'never' }],
     'comma-dangle': ['warn', {
       arrays: 'always-multiline',
