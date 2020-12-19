@@ -88,6 +88,7 @@ module.exports = {
     'no-trailing-spaces': 'warn',
     'no-underscore-dangle': ['warn', { allowAfterThis: true }],
     'object-curly-newline': ['warn', { consistent: true }],
+    'object-curly-spacing': ['warn', 'always'],
     'object-property-newline': ['warn', { allowAllPropertiesOnSameLine: true }],
     'object-shorthand': ['warn', 'always'],
     'padded-blocks': 'off',
