@@ -58,7 +58,8 @@ module.exports = {
 
     'arrow-body-style': ['warn', 'as-needed'],
     'arrow-parens': 'off',
-    'camelcase': 'warn',
+    'brace-style': ['warn', '1tbs'],
+    'camelcase': ['warn', { properties: 'never' }],
     'comma-dangle': ['warn', {
       arrays: 'always-multiline',
       exports: 'always-multiline',
@@ -88,10 +89,12 @@ module.exports = {
     'no-trailing-spaces': 'warn',
     'no-underscore-dangle': ['warn', { allowAfterThis: true }],
     'object-curly-newline': ['warn', { consistent: true }],
+    'object-curly-spacing': ['warn', 'always'],
     'object-property-newline': ['warn', { allowAllPropertiesOnSameLine: true }],
     'object-shorthand': ['warn', 'always'],
     'padded-blocks': 'off',
     'quote-props': ['warn', 'as-needed', { unnecessary: false }],
     'quotes': ['warn', 'single', { avoidEscape: true }],
+    'semi': ['error', 'always'],
   },
 };
