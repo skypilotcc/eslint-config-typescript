@@ -51,7 +51,9 @@ module.exports = {
     '@typescript-eslint/no-useless-constructor': 'warn',
 
     // Stylistic
-    '@typescript-eslint/indent': ['warn', 2],
+    '@typescript-eslint/indent': ['error', 2, {
+      ignoredNodes: ['TSTypeParameterInstantiation'],
+    }],
     '@typescript-eslint/member-delimiter-style': 'warn',
     '@typescript-eslint/member-ordering': 'warn',
     '@typescript-eslint/type-annotation-spacing': 'warn',
