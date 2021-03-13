@@ -1,6 +1,6 @@
 {
   "name": "@skypilot/eslint-config-typescript",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "private": false,
   "description": "SkyPilot's .eslintrc as an extensible shared config",
   "keywords": [
