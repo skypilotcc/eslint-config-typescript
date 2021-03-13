@@ -43,7 +43,7 @@
     "typecheck": "tsc"
   },
   "devDependencies": {
-    "@skypilot/toolchain": "^5.1.4"
+    "@skypilot/toolchain": "^5.2.0"
   },
   "publishConfig": {
     "access": "restricted"
