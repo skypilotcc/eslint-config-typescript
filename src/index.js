@@ -18,7 +18,9 @@ module.exports = {
       files: ['*.js'],
       rules: {
         '@typescript-eslint/explicit-function-return-type': 'off',
+        '@typescript-eslint/indent': 'off',
         '@typescript-eslint/no-var-requires': 'off',
+        'indent': ['warn', 2, { SwitchCase: 1 }],
         'no-dupe-class-members': 'error',
       },
     },
@@ -51,8 +53,9 @@ module.exports = {
     '@typescript-eslint/no-useless-constructor': 'warn',
 
     // Stylistic
-    '@typescript-eslint/indent': ['error', 2, {
+    '@typescript-eslint/indent': ['warn', 2, {
       ignoredNodes: ['TSTypeParameterInstantiation'],
+      SwitchCase: 1,
     }],
     '@typescript-eslint/member-delimiter-style': 'warn',
     '@typescript-eslint/member-ordering': 'warn',
@@ -75,6 +78,7 @@ module.exports = {
       { 'groups': ['builtin', 'external', 'internal', 'parent', 'sibling'] },
     ],
     'import/prefer-default-export': 'off',
+    'indent': 'off',
     'keyword-spacing': 'warn',
     'lines-between-class-members': ['warn', 'always', { exceptAfterSingleLine: true }],
     'max-classes-per-file': 'warn',
